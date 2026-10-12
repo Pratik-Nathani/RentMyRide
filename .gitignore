@@ -1,0 +1,20 @@
+
+# .NET
+backend/bin/
+backend/obj/
+backend/.vs/
+
+# React
+frontend/node_modules/
+frontend/dist/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+backend/appsettings.json
+backend/appsettings.Development.json
+
+# IDE
+.vscode/
+.idea/
